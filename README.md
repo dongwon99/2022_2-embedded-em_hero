@@ -49,7 +49,7 @@ LED와 스피커로 구성된 비상등을 통해 사용자에게 위험 감지 
 
 ## 개발 일정
 
-<img src="https://user-images.githubusercontent.com/95978936/208692810-d2dd4d8d-d186-4f4a-a686-5488eddeca1b.png" width="450" height="500"/>
+<img src="https://user-images.githubusercontent.com/95978936/208692810-d2dd4d8d-d186-4f4a-a686-5488eddeca1b.png" width="800" height="400"/>
 <br/>
 
 
