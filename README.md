@@ -129,8 +129,8 @@ https://docs.coolsms.co.kr/development-kits/python
 
 <img src="https://user-images.githubusercontent.com/95978936/208687073-b253536a-cf52-40af-bf7c-906e8c0cbb09.png" width="450" height="500"/>
 
+<br/>
 
-<br></br>
 ## 앱 사용영상   
 
 <div align="center">  
