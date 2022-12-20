@@ -148,6 +148,12 @@ https://docs.coolsms.co.kr/development-kits/python
 
 ## 기여자   
 
+### 역할분담
+
+허동원 - 멀티프로세싱, IPC, 스마트폰 통신, 센서(온도, 초음파) 및 다이오드, 스피커 코드 구현
+신승미 - 개발 계획 및 시스템 구조도 작성, 초음파 센서 및 다이오드 회로 구현
+이예림 - 팀장, 회로도 설계, 온도 센서 및 스피커 회로 구현, 패키징
+
 <div align="center">
   <a href="https://github.com/dongwon99">
     <img src="https://user-images.githubusercontent.com/102962030/206461747-4d56a152-6963-46ea-853a-603465037070.png", width=200, alt="dongwon", title="dongwon99"/>
