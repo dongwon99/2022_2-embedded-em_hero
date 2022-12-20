@@ -11,17 +11,18 @@ False Alarm을 방지하기 위하여 5초동안 초음파, 온도 센서로 상
 
 <div align="center">  
   
-[![Thumbnail](https://user-images.githubusercontent.com/102962030/206456509-f2e7c97b-3ca0-4efd-a11b-c8fceba4595c.png)](https://youtu.be/N2bZ5JN9U3Y)    
+
+[![Thumbnail](https://user-images.githubusercontent.com/102962030/208643627-03eaa442-31a6-4056-89ab-0782b8970a39.png)](https://youtu.be/N2bZ5JN9U3Y)    
 
 </div>  
   
   
 ## 개요
-  - 목적: 자취 전반의 정보 제공을 통한 삶의 질 향상    
+  - 목적: 인덕션 화재 감지   
   - 개발 환경: Linux
   - 사용 언어: c, python   
   - 사용 패키지 및 API:  
-    - 
+    - wiringPi: wiringPi.h, wiringPiI2C  
     - Login: Kakao, Naver  
     - Map: Google Map, Places API, Geocoding API  
 
