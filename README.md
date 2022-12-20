@@ -38,20 +38,16 @@ LED와 스피커로 구성된 비상등을 통해 사용자에게 위험 감지 
   - 목적: 인덕션 화재 감지   
   - 개발 환경: Linux
   - 사용 언어: c, python   
-  - 사용 패키지 및 API:  
-    - wiringPi: wiringPi.h, wiringPiI2C  
-    - 주요 구현 방식
-      - 멀티 프로세싱 및 IPC 사용
-      - 라즈베리파이 - 스마트폰 통신 (coolsms 사용)
+  - 사용 패키지 및 API: wiringPi.h, wiringPiI2C  
+  - 주요 구현 방식
+    1. 멀티 프로세싱 및 IPC 사용
+      - posix_spawn 함수
+      - 메세지큐
+    2. 라즈베리파이 - 스마트폰 통신 
+      - coolsms 사용
 
 
 <br/>
-
-## 개발 일정
-
-<img src="https://user-images.githubusercontent.com/95978936/208692810-d2dd4d8d-d186-4f4a-a686-5488eddeca1b.png" width="1000" height="300"/>
-<br/>
-
 
 
 ## 전체 시스템 구조
@@ -156,12 +152,9 @@ https://docs.coolsms.co.kr/development-kits/python
 
 ### 역할분담
 
-<div>허동원 - 멀티프로세싱, IPC, 스마트폰 통신, 센서(온도, 초음파) 및 다이오드, 스피커 코드 구현</div>
-<div>신승미 - 개발 계획 및 시스템 구조도 작성, 초음파 센서 및 다이오드 회로 구현</div>
-<div>이예림 - 팀장, 회로도 설계, 온도 센서 및 스피커 회로 구현, 패키징</div>
-
-<br/>
-
+허동원 - 멀티프로세싱, IPC, 스마트폰 통신, 센서(온도, 초음파) 및 다이오드, 스피커 코드 구현
+신승미 - 개발 계획 및 시스템 구조도 작성, 초음파 센서 및 다이오드 회로 구현
+이예림 - 팀장, 회로도 설계, 온도 센서 및 스피커 회로 구현, 패키징
 
 <div align="center">
   <a href="https://github.com/dongwon99">
